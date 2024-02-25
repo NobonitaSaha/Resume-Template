@@ -1,0 +1,262 @@
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .resume {
+        padding: 25px 0px;
+        flex-basis: 65%;
+        background-color: #fff;
+        padding-top: 380px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bg-blue {
+        z-index: 1;
+    }
+
+    .profile-content {
+        flex-basis: 45%;
+    }
+
+    .resume {
+        padding: 25px 0px;
+        flex-basis: 65%;
+        background-color: #fff;
+        padding-top: 30px;
+    }
+
+    .profile-images {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        top: -28px;
+        bottom: 0;
+        left: 25px;
+    }
+
+    .profile-name {
+        padding: 42px 25px;
+    }
+
+    .profile-name > h1 {
+        font-size: 65px;
+    }
+
+    .profile-name > h2 {
+        font-size: 65px;
+        margin-left: 30px;
+    }
+
+    .profile-name > h3 {
+        margin-left: 90px;
+        font-size: 18px;
+    }
+    
+    .product-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bg-blue {
+        z-index: 1;
+    }
+
+    .profile-content {
+        flex-basis: 45%;
+    }
+
+    .profile-images {
+        left: 0px;
+    }
+
+    .profile-name {
+        padding: 42px 25px;
+    }
+
+    .profile-name > h1 {
+        font-size: 65px;
+    }
+
+    .profile-name > h2 {
+        font-size: 65px;
+        margin-left: 30px;
+    }
+
+    .profile-name > h3 {
+        margin-left: 90px;
+        font-size: 18px;
+    }
+
+    .resume {
+        padding: 25px 0px;
+        flex-basis: 65%;
+        background-color: #fff;
+        padding-top: 30px;
+    }
+
+    .product-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
+
+ 
+@media (max-width: 576px) {
+    .bg-blue {
+        z-index: 1;
+    }
+
+    .profile-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parallelogram {
+        width: 360px;
+        height: 250px;
+        transform: skew(-30deg);
+        z-index: 1;
+        left: 75px;
+    }
+
+    .profile {
+        flex-basis: 100%;
+        background-color: #191919;
+        color: #ababab;
+        padding-top: 480px;
+    }
+
+    .profile-name {
+        padding: 20px 44px 40px 44px;
+        display: flex;
+        align-items: baseline;
+        border-bottom: 2px #5a5a5a57 dashed;
+    }
+
+    .profile-name > h1 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    .profile-name > h2 {
+        font-size: 32px;
+        margin-left: 30px;
+    }
+
+    .profile-name > h3 {
+        margin-left: 0px;
+        font-size: 15px;
+        margin-top: 50px;
+        position: absolute;
+        left: 26px;
+        right: 0;
+        margin-bottom: 40px;
+    }
+    
+    .profile-info {
+        padding-top: 60px;
+    }
+
+    .resume-wrap {
+        padding: 36px 40px;
+    }
+
+    .timeline-event-copy {
+        padding: 2em 0em 2em 1em;
+    }
+
+    .product-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .bg-blue {
+        z-index: 1;
+        background-color: #042B6B;
+    }
+
+    .profile-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parallelogram {
+        display: none;
+    }
+    
+    .profile {
+        flex-basis: 100%;
+        background-color: #191919;
+        color: #ababab;
+        padding-top: 480px;
+    }
+
+    .profile-name {
+        padding: 0px 44px 40px 44px;
+        display: flex;
+        align-items: baseline;
+        border-bottom: 2px #5a5a5a57 dashed;
+    }
+
+    .profile-name > h1 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    .profile-name > h2 {
+        font-size: 32px;
+        margin-left: 30px;
+    }
+
+    .profile-name > h3 {
+        margin-left: 0px;
+        font-size: 15px;
+        margin-top: 50px;
+        position: absolute;
+        left: 26px;
+        right: 0;
+        margin-bottom: 40px;
+    }
+
+    .profile-info {
+        padding-top: 40px;
+    }
+
+    .resume-wrap {
+        padding: 36px 40px;
+    }
+
+    .timeline-event-copy {
+        padding: 2em 0em 2em 1em;
+    }
+
+    .product-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+}
